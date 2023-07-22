@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <React.Fragment>
       <Logo />
-      <div className="flex items-center justify-end w-full gap-4 py-[0.9rem] px-8">
+      <div className="flex items-center justify-end w-full gap-4 py-[0.75rem] px-8">
         <div>
           <div className="relative border border-solid border-neutral-300 flex w-full flex-wrap items-stretch">
             <div className="flex items-center px-3.5">
