@@ -5,3 +5,9 @@
 body {
   background-color: rgba(0, 255, 255, 0.05);
 }
+
+.overflow-text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -6,17 +6,17 @@ const Navigation = () => {
   return (
     <React.Fragment>
       <Logo />
-      <div className="flex items-center justify-end w-full gap-5 py-[0.9rem] px-8">
-        <div className="">
-          <div className="relative border border-solid border-neutral-300 flex w-full flex-wrap items-stretch p-1">
+      <div className="flex items-center justify-end w-full gap-4 py-[0.9rem] px-8">
+        <div>
+          <div className="relative border border-solid border-neutral-300 flex w-full flex-wrap items-stretch">
             <div className="flex items-center px-3.5">
-                <svg xmlns="http://www.w3.org/2000/svg" height={'1rem'} viewBox="0 0 512 512" className="scale-150" fill='rgba(0,0,0,0.5)'>
+                <svg xmlns="http://www.w3.org/2000/svg" height={'0.7rem'} viewBox="0 0 512 512" className="scale-150" fill='rgba(0,0,0,0.5)'>
                     <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
                 </svg>
             </div>
             <input
               type="search"
-              className="relative m-0 -mr-0.5 block flex-auto rounded-l bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary border-solid border-[3px] border-transparent border-l-gray-400"
+              className="relative m-0 -mr-0.5 block flex-auto rounded-l bg-transparent bg-clip-padding px-1 py-[0.15rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary border-solid border-[3px] border-transparent border-l-gray-400"
               placeholder="Search"
               aria-label="Search"
               aria-describedby="button-addon1"
@@ -24,12 +24,12 @@ const Navigation = () => {
           </div>
         </div>
         <div className="relative inline-flex w-fit border-solid border-2 border-indigo-200">
-          <div className="absolute bottom-2/4 left-auto right-0 top-2/4 z-10 inline-block -translate-y-3/4 translate-x-2/2 rotate-0 skew-x-0 skew-y-0 scale-x-50 scale-y-50 rounded-full bg-pink-700 p-3 text-xs"></div>
+          <div className="absolute bottom-2/4 left-auto right-0 top-2/4 z-10 inline-block -translate-y-3/4 -translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-25 scale-y-25 rounded-full bg-pink-700 p-1 text-xs"></div>
           <div className="flex items-center justify-center bg-transparent rounded-lg px-1.5 py-1.5 text-cente">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={"1.65rem"}
-              height={"2rem"}
+              width={"1rem"}
+              height={"1rem"}
               viewBox="0 0 448 512"
               fill="rgb(129 140 248)"
             >
@@ -41,8 +41,8 @@ const Navigation = () => {
           <div className="flex items-center justify-center bg-transparent rounded-lg px-1.5 py-1.5 text-cente">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={"2rem"}
-              height={"2rem"}
+              width={"1rem"}
+              height={"1rem"}
               viewBox="0 0 512 512"
               fill="rgb(129 140 248)"
             >
@@ -52,8 +52,8 @@ const Navigation = () => {
         </div>
 
         <div className="relative">
-          <img className="w-12 h-12 rounded-full" src={Avatar} alt="" />
-          <span className="bottom-0 left-9 absolute  w-3.5 h-3.5 bg-gray-100 border-2 border-white dark:border-gray-800 rounded-full flex items-center justify-center p-0.5">
+          <img className="w-9 h-9 rounded-full" src={Avatar} alt="" />
+          <span className="bottom-0 left-7 absolute  w-2.5 h-2.5 bg-gray-100 border-2 border-white dark:border-gray-800 rounded-full flex items-center justify-center p-0.2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="1rem"
