@@ -1,9 +1,13 @@
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
+import SideNavbar from './components/SideNavbar/SideNavbar';
 
-function App() {
-
+const App = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <SideNavbar />
+
+    </>
   )
 }
 
