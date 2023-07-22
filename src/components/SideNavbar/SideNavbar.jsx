@@ -4,8 +4,8 @@ import VerticalMenu from './VerticalMenu';
 
 const SideNavbar = () => {
     return (
-        <aside className="w-full h-full">
-            <nav className="bg-white flex flex-col items-center w-[18rem] px-4 py-6">
+        <aside className="aside">
+            <nav className="bg-white flex flex-col items-center w-[16rem] px-4 py-4">
                 <VerticalMenu />
                 <CommunitiesFeed />
             </nav>
