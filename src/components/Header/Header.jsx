@@ -2,7 +2,9 @@ import Navigation from "./Navigation"
 
 const Header = () => {
   return (
-    <Navigation />
+    <header className="flex items-center justify-between bg-white">
+        <Navigation  />
+    </header>
   )
 }
 
